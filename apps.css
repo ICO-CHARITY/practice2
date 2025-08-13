@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap");
+
+* {
+  padding: 0rem;
+  margin: 0rem;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+main {
+  margin: 0 auto;
+}
+
+img {
+  max-width: 450px;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 1.5rem;
+  color: hsl(201, 11%, 66%);
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 3.7rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.btn {
+  padding: 1rem 4rem;
+  border-radius: 40px;
+  color: white;
+  gap: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  box-shadow: 0rem 0rem 1rem 0rem black;
+}
+
+.main-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  font-family: "Bai Jamjuree", sans-serif;
+  background-color: green;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  background-image: url("images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: clip;
+  background-color: gold;
+}
+
+section {
+  margin-bottom: 3.5rem;
+}
+
+.icon-header {
+  width: 6rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.icon {
+  margin: 4rem 0rem;
+  width: 10rem;
+}
+
+.first-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 10rem;
+  padding: 3rem 0rem;
+}
+
+.section1 {
+  text-align: center;
+  line-height: 1.5;
+  padding: 1rem 10rem;
+}
+
+.section1 p {
+  padding: 1rem 1.5rem;
+}
+
+.btn-first {
+  background-color: hsl(171, 66%, 44%);
+}
+
+.btn-second {
+  background-color: hsl(233, 100%, 69%);
+}
+
+.section2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.computer {
+  position: relative;
+  right: 1.6rem;
+}
+
+.second-flex {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  justify-content: space-around;
+  padding: 2rem 4rem;
+  gap: 1.5rem;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.access {
+  text-align: center;
+  padding: 4rem 6rem;
+}
+
+.access p {
+  padding: 0rem 5rem;
+}
+
+.workflow p {
+  text-align: center;
+  padding: 1.5rem 0rem;
+}
+
+.section4 {
+  text-align: center;
+  padding: 1.5rem 0rem;
+}
+
+.list2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.list2 img {
+  margin-bottom: 2.5rem;
+  width: 3rem;
+}
+
+.clip-list h3 {
+  margin-bottom: 1rem;
+}
+
+.mini {
+  width: 1rem;
+  margin-bottom: 1rem;
+}
+
+.list3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3rem;
+  padding: 3rem 2rem;
+}
+
+.section5 {
+  text-align: center;
+  margin: 5rem 1.5rem 3rem 2rem;
+  padding: 1rem 9rem;
+}
+
+.semilast-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.4rem;
+  padding: 3rem 0rem 6rem 0rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: hsla(202, 11%, 66%, 0.052);
+  padding: 2rem;
+}
+
+.icon-header2 {
+  width: 6rem;
+}
+
+.list4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+}
+
+.list4 a {
+  color: hsl(201, 11%, 66%);
+  font-size: 1.5rem;
+}
+
+.list5 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 2rem;
+  padding: 0rem 2rem 0rem 1.5rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* page responsiveness*/
+
+@media (max-width: 22.44rem) {
+  html {
+    font-size: 56.25%;
+  }
+
+  p {
+    font-size: 3rem;
+  }
+
+  h1 {
+    font-size: 7rem;
+  }
+
+  h3 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 4.5rem;
+  }
+  .container {
+    background-image: url("images/bg-header-mobile.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .first-list {
+    flex-direction: column;
+  }
+
+  .btn {
+    padding: 2rem 13rem;
+    font-size: 2.7rem;
+  }
+
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 2rem;
+  }
+
+  .computer {
+    right: 0rem;
+  }
+  .second-flex {
+    display: block;
+    text-align: center;
+    padding: 0rem 15rem;
+
+    margin: 5rem 0rem;
+  }
+
+  .section2 p {
+    margin: 2rem 0rem;
+  }
+
+  .section3 {
+    padding: 2rem 10rem;
+  }
+
+  .access {
+    padding: 2rem 5rem;
+  }
+
+  .access p {
+    padding: 2rem 2rem;
+  }
+
+  .workflow {
+    text-align: center;
+    padding: 0rem 9rem;
+    margin: 3rem 0rem;
+  }
+
+  .list2 {
+    display: block;
+    padding: 0rem 5rem;
+    margin-bottom: 9rem;
+  }
+  .list2 li {
+    padding: 4rem 0rem;
+  }
+
+  .clip-list {
+    padding: 0rem 8rem;
+  }
+
+  .section4 {
+    padding: 0rem 2rem;
+  }
+
+  .list3 {
+    display: block;
+    padding: 4rem 15rem;
+  }
+
+  .list3 li {
+    padding: 4rem 15rem;
+  }
+
+  .section5 {
+    padding: 3rem 15em;
+  }
+
+  .semilast-list {
+    flex-direction: column;
+    padding: 3rem 0rem 8rem 0rem;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+  .icon-header2 {
+    margin-bottom: 2.5rem;
+  }
+  .list4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+
+  .list5 {
+    padding: 1rem 4rem;
+  }
+}
